@@ -1,16 +1,47 @@
-# Snake Master
+# Snake
+### 1.  Description
 
-Implement Snake game.
+* Purpose:
 
-Make the game to pass the automatic tests and make the game to be nice.
+- This C program simulates a classic snake game.
+- The player controls the snake's movement to eat food and avoid obstacles.
+- The game ends when the snake hits its own body, the walls, or runs out of food.
 
-## Files
 
-Please do not change file names.
+* Key Features:
 
-- `snake.h`: you implementation should follow this header.
-- `snake.c`: implemement the game according to the documentation in header file  in this file to pass automatic tests.
-- `Makefile`: rules to build the game.
-- `main.c`: trivial main function that runs the game, modify this file to change the appereance of the game and the initial state.
-- `world.c`: world game loop and ASCII graphics library (do not change).
-- `world.h`: world library interface (do not change).
+- Dynamic memory allocation for the snake's body.
+- Collision detection with the snake's body, walls, and food.
+- Different game states (running, end of game due to snake collision, end of game due to food shortage).
+
+
+### 2. How to translate and run the program ?
+
+- Compile the program
+    ````c
+    make
+    ````
+
+- Run the program using the command: 
+    ````c
+    ./snake
+    ````
+
+
+### 3. How the program is programmed?
+
+* Libraries:
+
+- The code uses the stdlib.h library for dynamic memory allocation.
+
+* Key Programming Concepts:
+    - Dynamic memory allocation and deallocation for the snake's body segments.
+    - Linked lists to represent the snake's body.
+    - Collision detection using a simple algorithm.
+    - State machine to manage different game states.
+
+
+### 4. Links to source code and websites that were used in the solution
+
+-   [GitHub Game World](https://github.com/hladek/world)
+
