@@ -50,9 +50,6 @@ A classic Snake game implemented in the C programming language. Designed to run 
 - Handling terminal-based real-time input
 - Compilation and build automation with Makefile
 
-## 📸 Screenshots
-
-_Add terminal screenshots or a short GIF here._
 
 ## 📚 License
 
