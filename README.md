@@ -1,47 +1,63 @@
-# Snake
-### 1.  Description
+# 🐍 Snake Game in C
 
-* Purpose:
+A classic Snake game implemented in the C programming language. Designed to run in a terminal environment, this project demonstrates fundamental C skills, modular design, and real-time input handling.
 
-- This C program simulates a classic snake game.
-- The player controls the snake's movement to eat food and avoid obstacles.
-- The game ends when the snake hits its own body, the walls, or runs out of food.
+## 🎮 Features
 
+- Classic Snake game mechanics
+- Real-time movement and collision detection
+- Modular code architecture (snake logic, world generation, main control loop)
+- Easy build and run using Makefile
+- Console-based interface
 
-* Key Features:
+## 🛠️ Tech Stack
 
-- Dynamic memory allocation for the snake's body.
-- Collision detection with the snake's body, walls, and food.
-- Different game states (running, end of game due to snake collision, end of game due to food shortage).
+- C (C99)
+- GCC
+- Make (GNU Make)
 
+## 📁 Project Structure
 
-### 2. How to translate and run the program ?
+```
+├── main.c          # Main loop and game initialization
+├── snake.c/.h      # Snake movement, growth, and collisions
+├── world.c/.h      # Game field and food generation
+├── Makefile        # Build configuration
+├── README.md       # Project documentation
+```
 
-- Compile the program
-    ````c
-    make
-    ````
+## 🚀 How to Run
 
-- Run the program using the command: 
-    ````c
-    ./snake
-    ````
+1. **Build the project**:
+   ```bash
+   make
+   ```
 
+2. **Run the game**:
+   ```bash
+   ./snake
+   ```
 
-### 3. How the program is programmed?
+3. **Clean build files**:
+   ```bash
+   make clean
+   ```
 
-* Libraries:
+## 🎯 Skills Demonstrated
 
-- The code uses the stdlib.h library for dynamic memory allocation.
+- Low-level memory and pointer management
+- Structs and modular file design
+- Handling terminal-based real-time input
+- Compilation and build automation with Makefile
 
-* Key Programming Concepts:
-    - Dynamic memory allocation and deallocation for the snake's body segments.
-    - Linked lists to represent the snake's body.
-    - Collision detection using a simple algorithm.
-    - State machine to manage different game states.
+## 📸 Screenshots
 
+_Add terminal screenshots or a short GIF here._
 
-### 4. Links to source code and websites that were used in the solution
+## 📚 License
 
--   [GitHub Game World](https://github.com/hladek/world)
+This project is licensed under the MIT License.
 
+## 👨‍💻 Author
+
+Created with focus and nostalgia by [Tetiana] — C enthusiast and low-level programmer.
